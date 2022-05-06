@@ -62,7 +62,13 @@ Checkpoint file would be stored in the {work_dir}. Please remember to update *yo
 
 
 ## Testing
-Evaluate the checkpoint by runing:
+Please download the pretrained checkpoint file or train the model before evaluation. Our pretrained file is stored in Baidu Disk:
+```
+link: https://pan.baidu.com/s/16G_LvCaxuF22n51b1VlarA 
+password: lc3q
+```
+
+Evaluate the model by runing:
 ```
 python tools/test.py configs/atss/atss_r50_fpn_1x_coco.py ./training_dir/kitti_dvs/atss_sp_add_adamw/epoh_11_747.pth --work-dir ./training_dir/kitti_dvs/atss_sp_add_adamw/ --out result_test.pkl --eval bbox --show_dir ./training_dir/kitti_dvs/atss_sp_add_adamw/eval_results_show 
 ```
