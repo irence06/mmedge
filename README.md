@@ -52,7 +52,7 @@ password: cce0
 
 
 ## Training
-Taking ATSS as the base model, event-based ATSS with lightweight spatial attention mechanism can be trained using:
+Selecting ATSS as the baseline, event-based ATSS with lightweight spatial attention mechanism can be trained using:
 
 ```
 python tools/train.py configs/atss/atss_r50_fpn_1x_coco.py --work_dir training_dir/kitti_dvs/atss_sp_add_adamw
