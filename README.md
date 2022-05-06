@@ -43,7 +43,7 @@ Event Stream represents edge of moving object with a four dimensional tuple (t,x
     
     
    
-Our_dataset can be downloaded from Baidu Disk:
+EventKITTI (i.e. encoded maps and edge maps of eventstream simulated from KITTI 2D Object Detection Benchmark) can be downloaded from Baidu Disk:
 
 ```
 link: https://pan.baidu.com/s/1s5fIJsE5QY9QktMTAYYtWg  
