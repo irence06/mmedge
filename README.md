@@ -17,7 +17,7 @@ pip install -r requirements/mmedge_install.txt
 ```
 
 ## Dataset Pre-processing
-Event Stream represents edge of moving object with a four dimensional tuple (t,x,y,p), which is incompatible with the input of CNN-based model. Hence, we adopt event-encoding methods (i.e. SAE and HIS) and Canny Extractor to generate event frame and edge map respectively. Annotation follows COCO format and the dataset should be orgnaized as:
+Event Stream represents edge of moving object with a four dimensional tuple (t,x,y,p), which is incompatible with the input of CNN-based model. Hence, we adopt event-encoding methods (i.e. SAE and HIS) and Canny Extractor to generate encoded map and edge map respectively. Annotation follows COCO format and the dataset should be orgnaized as:
 
     .
     ├── DATA_DIR
