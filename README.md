@@ -87,8 +87,6 @@ Liang Z, Chen G, Li Z, et al. Event-based object detection with lightweight spat
   booktitle={2021 6th IEEE International Conference on Advanced Robotics and Mechatronics (ICARM)}, 
   title={Event-based Object Detection with Lightweight Spatial Attention Mechanism}, 
   year={2021},
-  volume={},
-  number={},
   pages={498-503},
   doi={10.1109/ICARM52023.2021.9536146}}
 ```
