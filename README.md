@@ -1,7 +1,7 @@
 # Event-based Object Detection with Lightweight Spatial Attention Mechanism
 
 ## Introduction
-This repository contains SPatial Attention Mechanism of our paper (publised on ICARM2021): Event-based Object Detection with Lightweight Spatial Attention Mechanism. Our model is developed based on MMDetection.
+This repository contains Spatial Attention Mechanism of our paper (publised on ICARM2021): Event-based Object Detection with Lightweight Spatial Attention Mechanism. Our model is developed based on MMDetection.
 ![Fig](https://github.com/irence06/mmedge/blob/master/readme/spattend.jpg)
 
 
