@@ -43,7 +43,7 @@ Event Stream represents edge of moving object with a four dimensional tuple (t,x
     
     
    
-EventKITTI (i.e. encoded maps and edge maps of eventstream simulated from KITTI 2D Object Detection Benchmark) can be downloaded from Baidu Disk:
+EventKITTI Object Detection Datset(i.e. encoded maps and edge maps of eventstream simulated from KITTI 2D Object Detection Benchmark) can be downloaded from Baidu Disk:
 
 ```
 link: https://pan.baidu.com/s/1s5fIJsE5QY9QktMTAYYtWg  
@@ -67,6 +67,14 @@ Evaluate the checkpoint by runing:
 python tools/test.py configs/atss/atss_r50_fpn_1x_coco.py ./training_dir/kitti_dvs/atss_sp_add_adamw/epoh_11_747.pth --work-dir ./training_dir/kitti_dvs/atss_sp_add_adamw/ --out result_test.pkl --eval bbox --show_dir ./training_dir/kitti_dvs/atss_sp_add_adamw/eval_results_show 
 ```
 Please remember to update *your dataset_path*, *your checkpoint_path*, *your work_dir*, *your out_pickle* and *your show_dir* before evaluation.
+
+## Results
+Comparison of ATSS and ATSS+SAM on EventKITTI Object Detection Dataset:
+    .
+    | Method | MAP@0.5 | MAP@.5:.95 | FPS | 
+    | --- | --- | --- | --- | 
+    | ATSS | 73.3% | 41.3% | 24 | 
+    | ATSS+SAM | 74.7% | 43.3% | 21 | 
 
 ## Citation
 If you use the code in your research, please cite as:
