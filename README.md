@@ -70,10 +70,10 @@ Please remember to update *your dataset_path*, *your checkpoint_path*, *your wor
 
 ## Results
 Comparison of ATSS and ATSS+SAM on EventKITTI Object Detection Dataset:
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Method      |    MAP@0.5  |  MAP@0.5:0.95 |      FPS      |
+| :---        |    :----:   |     :----:    |          ---: |
+| ATSS        |    73.3%    |     41.3%     |      24.0     |
+| ATSS+SAM    |    74.7%    |     43.0%     |      21.0     |
 
 ## Citation
 If you use the code in your research, please cite as:
